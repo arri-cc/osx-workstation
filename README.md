@@ -11,16 +11,35 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [ ] Graphviz
 - [ ] Xcode upgrade
   - [ ] install cocoapods
+  - [ ] install cocoapods spec repo :(
 - [ ] Android Studio
   - [ ] AVDs
   - [ ] SDKs
-- [ ] Setup config mgmgt utilities
+- [ ] Misc dev tools
+  - [ ] sublime text 3
+  - [ ] typora
+  - [ ] gpg toolkit
+  - [ ] dash
+  - [ ] vmware fusion
+  - [ ] calca
+  - [ ] Rider
+  - [ ] Viscosity
+  - [ ] VirtualBox
+- [ ] Setup frameworks and utilities
   - [ ] Upgrade git
   - [ ] AWS CLI
   - [ ] Terraform
+  - [ ] terraform_landscape
   - [ ] Consul
+  - [ ] docker
   - [ ] MiniKube
   - [ ] upgrade python2 and pip2
+  - [ ] powershell core
+  - [ ] dotnet core 2.x
+  - [ ] nodejs
+  - [ ] bazel
+  - [ ] mono
+  - [ ] packer
 - [ ] Terminal Customizations
   - [ ] tmux
   - [ ] powerline + fonts

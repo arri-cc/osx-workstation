@@ -12,6 +12,7 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
 - [ ] Xcode upgrade
   - [ ] install cocoapods
   - [ ] install cocoapods spec repo :(
+  - [ ] install swiftenv and swift 5.0-dev `brew install kylef/formulae/swiftenv`
 - [ ] Android Studio
   - [ ] AVDs
   - [ ] SDKs

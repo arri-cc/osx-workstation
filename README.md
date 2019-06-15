@@ -28,8 +28,11 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [ ] VirtualBox
 - [ ] Setup frameworks and utilities
   - [ ] Upgrade git
+  - [ ] brew install gpg2
+  - [ ] brew install homebrew/cask/android-platform-tools
   - [ ] AWS CLI
-  - [ ] Terraform
+  - [ ] brew install tfenv
+  - [ ] tfenv install latest
   - [ ] terraform_landscape
   - [ ] Consul
   - [ ] docker

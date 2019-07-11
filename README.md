@@ -33,6 +33,7 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [ ] AWS CLI
   - [ ] brew install aws-iam-authenticator
   - [ ] brew install tfenv
+  - [ ] brew install docker-credential-helper-ecr
   - [ ] tfenv install latest
   - [ ] terraform_landscape
   - [ ] Consul

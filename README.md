@@ -33,7 +33,7 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [ ] AWS CLI
   - [ ] brew install aws-iam-authenticator
   - [ ] brew install kustomize
-  - [ ] force brew 0.26 `brew install https://raw.githubusercontent.com/bazelbuild/homebrew-tap/c8a0ccc2a8b442d9887d88c6380f835f533ffd47/Formula/bazel.rb`
+  - [ ] force brew 0.26 `brew install https://raw.githubusercontent.com/bazelbuild/homebrew-tap/c8a0ccc2a8b442d9887d88c6380f835f533ffd47/Formula/bazel.rb && brew pin bazel`
   - [ ] brew install tfenv
   - [ ] brew install docker-credential-helper-ecr
   - [ ] tfenv install latest

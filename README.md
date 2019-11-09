@@ -12,7 +12,7 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
 - [ ] Xcode upgrade
   - [ ] install cocoapods
   - [ ] install cocoapods spec repo :(
-  - [ ] install swiftenv and swift 5.0-dev `brew install kylef/formulae/swiftenv`
+  - [x] install swiftenv and swift 5.0-dev `brew install kylef/formulae/swiftenv`
 - [ ] Android Studio
   - [ ] AVDs
   - [ ] SDKs
@@ -22,35 +22,35 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [ ] gpg toolkit
   - [ ] dash
   - [ ] vmware fusion
-  - [ ] calca
+  - [ ] Calca `
   - [ ] Rider
   - [ ] Viscosity
   - [ ] VirtualBox
 - [ ] Setup frameworks and utilities
   - [ ] Upgrade git
-  - [ ] brew install gpg2
-  - [ ] brew install homebrew/cask/android-platform-tools
-  - [ ] AWS CLI
-  - [ ] brew install aws-iam-authenticator
-  - [ ] brew install kustomize
+  - [x] brew install gpg2
+  - [x] brew install homebrew/cask/android-platform-tools
+  - [x] AWS CLI
+  - [x] brew install aws-iam-authenticator
+  - [x] brew install kustomize
   - [ ] force brew 0.26 `brew install https://raw.githubusercontent.com/bazelbuild/homebrew-tap/c8a0ccc2a8b442d9887d88c6380f835f533ffd47/Formula/bazel.rb && brew pin bazel`
-  - [ ] brew install tfenv
-  - [ ] brew install docker-credential-helper-ecr
-  - [ ] tfenv install latest
+  - [x] brew install tfenv
+  - [x] brew install docker-credential-helper-ecr
+  - [ ] tfenv install latest   # terraform
   - [ ] terraform_landscape
   - [ ] Consul
-  - [ ] docker
+  - [x] docker
   - [ ] MiniKube
   - [ ] upgrade python2 and pip2
   - [ ] powershell core
   - [ ] dotnet core 2.x
-  - [ ] nodejs
-  - [ ] bazel
+  - [x] nodejs
+  - [x] bazel
   - [ ] mono
-  - [ ] packer
-- [ ] Terminal Customizations
-  - [ ] tmux
+  - [x] packer
+- [x] Terminal Customizations
+  - [x] tmux
+  - [ ] ohmyzsh
   - [ ] powerline + fonts
-- [ ] Graphviz + dot
-- [ ] Protobufs/protoc
-- [ ]
+- [x] Graphviz + dot
+- [x] Protobufs/protoc

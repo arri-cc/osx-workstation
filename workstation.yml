@@ -1,0 +1,88 @@
+---
+ - hosts: localhost
+   become: no
+   tasks:
+     - name: brew taps 
+       homebrew_tap:
+        name: bazelbuild/tap
+
+     - name: install homebrew packages
+       homebrew:
+         name: "{{ item }}"
+         state: latest
+       loop:
+         - aws-iam-authenticator
+         - bazelbuild/tap/bazel
+         - cocoapods
+         - docker-credential-helper-ecr
+         - go
+         - gpg2
+         - graphviz
+         - grpc
+         - kustomize
+         - kylef/formulae/swiftenv
+         - nodejs
+         - packer
+         - protobuf
+         - tfenv
+         - tmux
+
+     - name: install homebrew casks
+       homebrew_cask:
+         name: "{{ item }}"
+         state: latest
+       loop:
+         - android-studio
+         - android-sdk
+         - android-ndk
+         - android-platform-tools
+         - docker
+         - sublime-text
+         - visual-studio-code
+
+     - name: Install vscode plugins
+       become: no
+       command: "code --install-extension '{{ item }}'"
+       register: vscode_extension_result
+       changed_when: "'already installed' not in vscode_extension_result.stdout" 
+       loop:
+         - bbenoist.vagrant
+         - cake-build.cake-vscode
+         - DavidAnson.vscode-markdownlint
+         - eamodio.gitlens
+         - mauve.terraform
+         - mohsen1.prettify-json
+         - ms-python.python
+         - ms-vscode.csharp
+         - ms-vscode.Go
+         - ms-vscode.PowerShell
+         - ms-azuretools.vscode-docker
+         - ritwickdey.LiveServer
+         - run-at-scale.terraform-doc-snippets
+         - vscoss.vscode-ansible
+         - zhuangtongfa.Material-theme
+         - yzhang.markdown-all-in-one
+
+     - name: Upgrade pip
+       pip:
+         name: pip
+         extra_args: --upgrade
+
+     - name: Install pip packages
+       pip:
+         name: "{{ item }}"
+       loop:
+         - awscli
+    
+     - name: Install Ruby Gems 
+       gem:
+          name: "{{ item }}"
+          state: latest
+       loop:
+         - fastlane
+         - bundler
+
+    # - name: Oh My Zsh
+    #   command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    #   args:
+    #     creates: ~/.oh-my-zsh

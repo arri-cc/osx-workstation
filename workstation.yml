@@ -14,6 +14,7 @@
          - aws-iam-authenticator
          - bazelbuild/tap/bazel
          - cocoapods
+         - consul
          - docker-credential-helper-ecr
          - go
          - gpg2
@@ -38,7 +39,12 @@
          - android-platform-tools
          - docker
          - emacs
+         - gpg-suite
+         - powershell
          - sublime-text
+         - typora
+         - virtualbox
+         - viscosity
          - visual-studio-code
 
      - name: Install vscode plugins

@@ -17,7 +17,7 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [ ] AVDs
   - [ ] SDKs
 - [ ] Misc dev tools
-  - [ ] sublime text 3
+  - [x] sublime text 3
   - [ ] typora
   - [ ] gpg toolkit
   - [ ] dash
@@ -33,7 +33,6 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [x] AWS CLI
   - [x] brew install aws-iam-authenticator
   - [x] brew install kustomize
-  - [ ] force brew 0.26 `brew install https://raw.githubusercontent.com/bazelbuild/homebrew-tap/c8a0ccc2a8b442d9887d88c6380f835f533ffd47/Formula/bazel.rb && brew pin bazel`
   - [x] brew install tfenv
   - [x] brew install docker-credential-helper-ecr
   - [ ] tfenv install latest   # terraform

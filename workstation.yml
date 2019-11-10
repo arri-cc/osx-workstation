@@ -37,6 +37,7 @@
          - android-ndk
          - android-platform-tools
          - docker
+         - emacs
          - sublime-text
          - visual-studio-code
 

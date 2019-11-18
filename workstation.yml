@@ -1,4 +1,4 @@
----
+I ---
  - hosts: localhost
    become: no
    tasks:
@@ -11,6 +11,7 @@
          name: "{{ item }}"
          state: latest
        loop:
+         - antigen
          - aws-iam-authenticator
          - bazelbuild/tap/bazel
          - cocoapods
@@ -42,8 +43,7 @@
          - gpg-suite
          - powershell
          - sublime-text
-         - typora
-         - virtualbox
+         #- virtualbox
          - viscosity
          - visual-studio-code
 

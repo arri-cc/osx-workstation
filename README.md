@@ -4,28 +4,23 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
 
 ## TODO
 
-- [ ] Bootstrap Ansible and Brew
-- [ ] Setup VSCode with extensions
-  - [ ] Terraform snippets
-  - [ ] Markdown
-  - [ ] Graphviz
+- [ ] Bootstrap
+  - [ ] Python 3
+  - [ ] OpenSSL Fix for `.bashrc` and/or `.zshrc`
+- [x] Setup VSCode with extensions
+  - [x] Terraform snippets
+  - [x] Markdown
+  - [x] Graphviz
 - [ ] Xcode upgrade
-  - [ ] install cocoapods
-  - [ ] install cocoapods spec repo :(
+  - [x] install cocoapods
   - [x] install swiftenv and swift 5.0-dev `brew install kylef/formulae/swiftenv`
-- [ ] Android Studio
-  - [ ] AVDs
-  - [ ] SDKs
+- [x] Android Studio
 - [ ] Misc dev tools
   - [x] sublime text 3
-  - [ ] typora
-  - [ ] gpg toolkit
-  - [ ] dash
-  - [ ] vmware fusion
-  - [ ] Calca `
-  - [ ] Rider
-  - [ ] Viscosity
-  - [ ] VirtualBox
+  - [x] typora
+  - [x] gpg toolkit
+  - [x] Viscosity
+  - [x] VirtualBox
 - [ ] Setup frameworks and utilities
   - [ ] Upgrade git
   - [x] brew install gpg2
@@ -37,10 +32,8 @@ This repo contains the ansible configuration to setup an OSX machine just the wa
   - [x] brew install docker-credential-helper-ecr
   - [ ] tfenv install latest   # terraform
   - [ ] terraform_landscape
-  - [ ] Consul
+  - [x] consul
   - [x] docker
-  - [ ] MiniKube
-  - [ ] upgrade python2 and pip2
   - [ ] powershell core
   - [ ] dotnet core 2.x
   - [x] nodejs

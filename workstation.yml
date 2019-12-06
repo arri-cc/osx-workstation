@@ -1,4 +1,4 @@
-I ---
+---
  - hosts: localhost
    become: no
    tasks:
@@ -17,6 +17,7 @@ I ---
          - cocoapods
          - consul
          - docker-credential-helper-ecr
+         - firebase-cli
          - go
          - gpg2
          - graphviz
@@ -43,7 +44,6 @@ I ---
          - gpg-suite
          - powershell
          - sublime-text
-         #- virtualbox
          - viscosity
          - visual-studio-code
 

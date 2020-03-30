@@ -16,6 +16,7 @@
          - bazelbuild/tap/bazel
          - cocoapods
          - consul
+         - direnv
          - docker-credential-helper-ecr
          - firebase-cli
          - go
@@ -26,9 +27,15 @@
          - kylef/formulae/swiftenv
          - nodejs
          - packer
+         - pinentry
          - protobuf
+         - rbenv
+         - ruby-build
+         - swiftenv
          - tfenv
          - tmux
+         - tmuxinator
+         - vim
 
      - name: install homebrew casks
        homebrew_cask:
@@ -81,14 +88,24 @@
        loop:
          - awscli
     
-     - name: Install Ruby Gems 
-       gem:
-          name: "{{ item }}"
-          state: latest
-       loop:
-         - fastlane
-         - bundler
+#     - name: Install Ruby Gems 
+#       gem:
+#          name: "{{ item }}"
+#          state: latest
+#       loop:
+#         - fastlane
+#         - bundler
 
+     - name: Install tmux tpm
+       file:
+         path: "~/.tmux/plugins"
+         state: directory
+
+     - name: Clone the tpm repository
+       git:
+         repo: "https://github.com/tmux-plugins/tpm"
+         dest: "~/.tmux/plugins/tpm"
+         version: "3.0.0"
     # - name: Oh My Zsh
     #   command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     #   args:

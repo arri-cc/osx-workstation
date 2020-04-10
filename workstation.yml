@@ -67,7 +67,7 @@
          - mauve.terraform
          - mohsen1.prettify-json
          - ms-python.python
-         - ms-vscode.csharp
+         - ms-dotnettools.csharp
          - ms-vscode.Go
          - ms-vscode.PowerShell
          - ms-azuretools.vscode-docker

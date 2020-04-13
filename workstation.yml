@@ -25,6 +25,7 @@
          - grpc
          - kustomize
          - kylef/formulae/swiftenv
+         - neovim
          - nodejs
          - packer
          - pinentry
@@ -105,7 +106,7 @@
        git:
          repo: "https://github.com/tmux-plugins/tpm"
          dest: "~/.tmux/plugins/tpm"
-         version: "3.0.0"
+         version: "1ff3208"
     # - name: Oh My Zsh
     #   command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     #   args:

@@ -23,6 +23,8 @@
          - gpg2
          - graphviz
          - grpc
+         - hub
+         - hugo
          - kustomize
          - kylef/formulae/swiftenv
          - neovim
